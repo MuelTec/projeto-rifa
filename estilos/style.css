@@ -3,44 +3,65 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
     font-size: 1em;
 }
 
 html,body {
     min-height: 100vh;
-
 }
 
-
-h1 {
-    color: white;
-    text-align: left;
-}
-
-nav {
-text-align: right;
-background-color: rgba(0, 0, 0, 0.664);
-
-}
-
-a {
-    color: white;
+header {
     padding: 10px;
-    text-decoration: none;
-    font-weight: bolder;
-    transition-duration: .5s;
-}
-
-a:hover {
-    background-color: white;
-    border-radius: 5px;
-}
-
-section > p {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
     padding-left: 30px;
+    background-color: rgba(36, 22, 22, 0.466);
+}
+
+.image01 {
+    padding: 20px;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.image01 p {
+    padding: 10px;
+}
+
+#samuel{
+    font-size: xx-large;
+}
+
+.image01 a {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: .8em;
+}
+
+.normal {
+text-align: center;
+font-size: x-large;
+}
+
+.image02 {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.image02 p {
+    padding: 10px;
+}
+
+.image02 a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: .8em;
 }
 
 section.normal {
@@ -49,13 +70,13 @@ section.normal {
 }
 
 section#img01 {
-    background-image: url(../imagens/background002.jpg);
+    background-image: url(../imagens/open-graph-default.png);
+    background-position: center center;
     background-size: cover;
-    background-position: right center;
 }
 
 section#img02 {
-    background-image: url(../imagens/background002.jpg);
-    background-size: cover;
-    background-position: right center;
+    background-image: url(../imagens/open-graph-default.png);
+    background-position: center center;
+
 }
