@@ -12,16 +12,15 @@ html,body {
 }
 
 h1 {
-    display: block;
     color: white;
     background-color: rgba(0, 0, 0, 0.363);
+    padding: 10px;
     text-align: left;
-    padding: 15px;
+
 }
+
 .image01 {
-    padding: 20px;
     text-align: center;
-    padding-left: 30px;
 }
 
 .image01 p {
