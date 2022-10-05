@@ -11,12 +11,13 @@ html,body {
     min-height: 100vh;
 }
 
-header {
-    padding: 10px;
-    padding-left: 30px;
-    background-color: rgba(36, 22, 22, 0.466);
+h1 {
+    display: block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.363);
+    text-align: left;
+    padding: 15px;
 }
-
 .image01 {
     padding: 20px;
     text-align: center;
@@ -41,8 +42,8 @@ header {
 }
 
 .normal {
-text-align: center;
-font-size: x-large;
+    text-align: center;
+    font-size: x-large;
 }
 
 .image02 {
@@ -69,14 +70,50 @@ section.normal {
     color: black;
 }
 
-section#img01 {
-    background-image: url(../imagens/open-graph-default.png);
+div.img {
+    display: inline-block;
+    margin: 5px;
+    width: 250px;
+    height: 250px;
+
+}
+
+div#i1 {
+    background-image: url(../imagens/home1.png);
     background-position: center center;
     background-size: cover;
 }
 
-section#img02 {
-    background-image: url(../imagens/open-graph-default.png);
+div#i2 {
+    background-image: url(../imagens/Phone-Icon.png);
     background-position: center center;
+    background-size: cover;
+}
 
+div#i3 {
+    background-image: url(../imagens/contato.png);
+    background-size: cover;
+}
+
+.large {
+    font-size: xx-large;
+    padding-bottom: 10px;
+}
+
+.normal a {
+    color: black;
+    text-decoration: none;
+    padding: 85px;
+}
+
+section#img01 {
+    background-image: url(../imagens/Spotify-for-Work.png);
+    background-position: center center;
+    background-size: contain;
+}
+
+section#img02 {
+    background-image: url(../imagens/Spotify-for-Work.png);
+    background-position: center center;
+    background-size: cover;
 }
