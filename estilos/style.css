@@ -65,9 +65,11 @@ h1 {
 }
 
 section.normal {
+    display: block;
     background-color: white;
     color: black;
 }
+
 
 div.img {
     display: inline-block;
@@ -76,6 +78,7 @@ div.img {
     height: 100px;
 
 }
+
 
 div#i1 {
     background-image: url(../imagens/home1.png);
@@ -102,7 +105,7 @@ div#i3 {
 .normal a {
     color: black;
     text-decoration: none;
-    padding: 85px;
+    padding: 10px;
 }
 
 section#img01 {
@@ -117,4 +120,8 @@ section#img02 {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#i1, #i2, #i3 {
+    text-align: ;
 }
