@@ -65,6 +65,7 @@ h1 {
 }
 
 section.normal {
+    padding-top: 20px;
     margin-bottom: 30px;
     background-color: white;
     color: black;
@@ -74,7 +75,7 @@ section.normal {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
+    padding-bottom: 30px;
 }
 
 
@@ -87,7 +88,8 @@ section.normal {
 }
 
 .link {
-    margin-bottom: -30px;
+    margin-bottom: -60px;
+    padding-bottom: 30px;
 }
 
 
