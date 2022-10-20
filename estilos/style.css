@@ -72,14 +72,22 @@ section.normal {
 
 .continer {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
+    
 }
 
-div.img {
+
+.img {
+    display: flex;
     width: 100px;
     height: 100px;
+    justify-content: center;
+    align-items: flex-end;
+}
 
+.link {
+    margin-bottom: -30px;
 }
 
 
