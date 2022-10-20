@@ -65,14 +65,14 @@ h1 {
 }
 
 section.normal {
+    margin-bottom: 30px;
     background-color: white;
     color: black;
-}
+} 
 
 
 div.img {
     display: inline-block;
-    margin: 10px;
     width: 100px;
     height: 100px;
 
@@ -121,6 +121,6 @@ section#img02 {
 }
 
 .alinhar {
-    display: inline-block;
+
 
 }
