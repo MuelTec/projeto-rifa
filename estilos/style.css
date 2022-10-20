@@ -70,9 +70,13 @@ section.normal {
     color: black;
 } 
 
+.continer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 div.img {
-    display: inline-block;
     width: 100px;
     height: 100px;
 
